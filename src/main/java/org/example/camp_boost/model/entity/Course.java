@@ -1,4 +1,4 @@
-package com.example.camp_boost.model.entity;
+package org.example.camp_boost.model.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

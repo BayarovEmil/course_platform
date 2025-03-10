@@ -1,6 +1,6 @@
-package com.example.camp_boost.repository;
+package org.example.camp_boost.repository;
 
-import com.example.camp_boost.model.entity.Course;
+import org.example.camp_boost.model.entity.Course;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

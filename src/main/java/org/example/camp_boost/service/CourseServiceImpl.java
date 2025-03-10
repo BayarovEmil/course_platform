@@ -1,12 +1,11 @@
-package com.example.camp_boost.service;
+package org.example.camp_boost.service;
 
-import com.example.camp_boost.mapper.CourseMapper;
-import com.example.camp_boost.model.dto.request.CourseRequest;
-import com.example.camp_boost.model.dto.response.CourseResponse;
-import com.example.camp_boost.model.entity.Course;
-import com.example.camp_boost.repository.CourseRepo;
-import com.example.camp_boost.repository.MyCourseRepository;
+import org.example.camp_boost.mapper.CourseMapper;
+import org.example.camp_boost.model.dto.request.CourseRequest;
+import org.example.camp_boost.model.dto.response.CourseResponse;
+import org.example.camp_boost.model.entity.Course;
 import lombok.RequiredArgsConstructor;
+import org.example.camp_boost.repository.MyCourseRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

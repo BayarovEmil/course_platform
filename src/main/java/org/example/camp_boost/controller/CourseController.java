@@ -1,9 +1,8 @@
-package com.example.camp_boost.controller;
-
-import com.example.camp_boost.model.dto.request.CourseRequest;
-import com.example.camp_boost.model.dto.response.CourseResponse;
-import com.example.camp_boost.model.entity.Course;
-import com.example.camp_boost.service.CourseService;
+package org.example.camp_boost.controller;
+import org.example.camp_boost.model.dto.request.CourseRequest;
+import org.example.camp_boost.model.dto.response.CourseResponse;
+import org.example.camp_boost.model.entity.Course;
+import org.example.camp_boost.service.CourseService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

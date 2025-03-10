@@ -1,4 +1,4 @@
-package com.example.camp_boost.model.dto.response;
+package org.example.camp_boost.model.dto.response;
 
 import lombok.*;
 

@@ -1,8 +1,8 @@
-package com.example.camp_boost.mapper;
+package org.example.camp_boost.mapper;
 
-import com.example.camp_boost.model.dto.request.CourseRequest;
-import com.example.camp_boost.model.dto.response.CourseResponse;
-import com.example.camp_boost.model.entity.Course;
+import org.example.camp_boost.model.dto.request.CourseRequest;
+import org.example.camp_boost.model.dto.response.CourseResponse;
+import org.example.camp_boost.model.entity.Course;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 

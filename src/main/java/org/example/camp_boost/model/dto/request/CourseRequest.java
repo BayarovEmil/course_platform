@@ -1,4 +1,4 @@
-package com.example.camp_boost.model.dto.request;
+package org.example.camp_boost.model.dto.request;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
