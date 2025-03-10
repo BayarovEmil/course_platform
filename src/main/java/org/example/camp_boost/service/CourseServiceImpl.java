@@ -39,8 +39,6 @@ public class CourseServiceImpl implements CourseService {
 
     @Override
     public List<CourseResponse> getAll(int page,int size) {
-        //List<Course> ->CourseResponse
-//        List<Course> courses = courseRepo.getAll();
         Pageable pageable = PageRequest.of(page-1,size, Sort.by("id").descending());
         Page<Course> responses = myCourseRepository.findAll(pageable);//List<Course> ->Page<Course>
         return courseMapper.convertToResponses(responses);
@@ -49,7 +47,6 @@ public class CourseServiceImpl implements CourseService {
     @Override
     public CourseResponse update(CourseRequest request) {
         Course course = courseMapper.convertToCourse(request);
-//        courseRepo.update(course);
         myCourseRepository.save(course);
         return courseMapper.convertToResponse(course);
     }
